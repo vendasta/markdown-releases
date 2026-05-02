@@ -6,6 +6,24 @@
     <description>vmarkdown auto-update feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.7.1</title>
+      <pubDate>Sat, 02 May 2026 08:30:00 -0600</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Changed</h3>
+        <ul>
+          <li><strong>About dialog</strong> drops the inline changelog. The credits area now carries a single &ldquo;View Changelog&rdquo; link that opens the bundled <code>CHANGELOG.md</code> in a regular vmarkdown preview window via a new <code>vmarkdown://changelog</code> URL scheme. The real preview pipeline (scroll sync, find-in-doc, mermaid, KaTeX, admonitions) now renders the changelog instead of an ad-hoc subset.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/vendasta/markdown-releases/releases/download/v0.7.1/vmarkdown-0.7.1.dmg"
+        sparkle:edSignature="pHlmq7AOHEWGU6dgoW8vDNtY99nwgh6TeQ5RFPBw6K35DRyK5MVnWNKEOIvF/1jQt8isJmRRjePbG7rLehstAw=="
+        length="3428801"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.7.0</title>
       <pubDate>Sat, 02 May 2026 07:39:00 -0600</pubDate>
       <sparkle:version>12</sparkle:version>
