@@ -6,6 +6,26 @@
     <description>vmarkdown auto-update feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.0</title>
+      <pubDate>Fri, 08 May 2026 08:00:00 -0600</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Added</h3>
+        <ul>
+          <li><strong>Print</strong> (&#x2318;P) and <strong>Export as PDF&hellip;</strong> (&#x2318;&#x21E7;E) in the File menu. Both route through <code>WKWebView.printOperation</code> so the rendered preview &mdash; including syntax-highlighted code, KaTeX math, Mermaid diagrams, admonitions, and YAML attributes &mdash; comes out paginated with the same fidelity as the on-screen view. Export skips the print panel and writes directly to the path picked from a Save dialog. The save dialog has an <strong>Include YAML Attributes</strong> toggle so the exported PDF can omit the frontmatter block. Print waits for any in-flight Mermaid/KaTeX async render before triggering the operation.</li>
+          <li><strong>@media print styling</strong>: forces a light palette regardless of system appearance, hides the scroll progress bar, comment anchors, find highlights, and external-link arrows, expands content to the full page width, and adds page-break-inside avoidance for code blocks, tables, blockquotes, admonitions, and YAML attributes.</li>
+          <li><strong>POSIX permissions</strong> in the document info bar. Files display their 10-character <code>ls -la</code>-style mode string after file size.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/vendasta/markdown-releases/releases/download/v0.8.0/vmarkdown-0.8.0.dmg"
+        sparkle:edSignature="WsqWsh0LedT+OugPkjIl4wB7OjFzgN2FFSrCqJZ4CLD+5wMrBCBnLzf+1X6RaBu43ZP7aYmQTo8mF0faUxB0AQ=="
+        length="3457776"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.7.1</title>
       <pubDate>Sat, 02 May 2026 08:30:00 -0600</pubDate>
       <sparkle:version>13</sparkle:version>
