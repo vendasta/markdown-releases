@@ -6,6 +6,28 @@
     <description>vmarkdown auto-update feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.9.0</title>
+      <pubDate>Sat, 09 May 2026 08:00:00 -0600</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Added</h3>
+        <ul>
+          <li><strong>Document-level stylesheets.</strong> Add <code>theme: &lt;name&gt;</code> to a markdown file's YAML frontmatter and a matching <code>&lt;name&gt;.css</code> is layered over the preview for on-screen rendering, <strong>Print&hellip;</strong>, and <strong>Export as PDF&hellip;</strong>. Resolution order: <code>~/.config/vmarkdown/stylesheets/</code> &rarr; <code>~/Library/Application Support/com.vendasta.vmarkdown/Stylesheets/</code> &rarr; bundled themes. The markdown source is otherwise untouched.</li>
+          <li><strong>Themable CSS variables</strong> on <code>:root</code> for headings, the horizontal rule, admonitions, and the body/mono fonts. Override only what you want; raw selectors still available for power use. Full reference in <code>docs/stylesheets.md</code>.</li>
+          <li><strong>Bundled sample themes</strong>: <code>serif</code> (book-style italic), <code>compact</code> (tight spacing for runbooks), <code>colorful</code> (heading hierarchy by hue).</li>
+          <li><strong>Stylesheets submenu</strong> in the File menu with Reveal commands for the user-config folder, Application Support folder, and bundled themes.</li>
+          <li><strong>Live-reload for theme stylesheets.</strong> Each open document watches its resolved CSS file via the same hybrid VNODE+FSEvents watcher that backs the markdown source &mdash; edits, atomic-rename saves, deletions, and post-deletion recreations all flow through to the preview without a markdown re-render.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/vendasta/markdown-releases/releases/download/v0.9.0/vmarkdown-0.9.0.dmg"
+        sparkle:edSignature="KYviBSMCzqpYaq+lhslY4I/Whz8mTiNUuJiZ7SaffaqY2xHj6bO9C1rBIjONeJBG9gcIfwfsM1j2jZAg8sHdBw=="
+        length="3478980"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.0</title>
       <pubDate>Fri, 08 May 2026 08:00:00 -0600</pubDate>
       <sparkle:version>14</sparkle:version>
