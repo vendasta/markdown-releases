@@ -6,6 +6,28 @@
     <description>vmarkdown auto-update feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.9.1</title>
+      <pubDate>Tue, 12 May 2026 14:04:20 -0600</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Added</h3>
+        <ul>
+          <li><strong>Active stylesheet indicator</strong> in the document info bar. A paintbrush icon plus theme name show which CSS is currently rendering the document, including a <code>default</code> label for documents without a <code>theme:</code> key (attributing the bundled <code>preview.css</code>). Click the paintbrush to open the resolved CSS file; click the name to copy its full path. Unresolved theme names are tinted orange.</li>
+        </ul>
+        <h3>Changed</h3>
+        <ul>
+          <li><strong>Document path</strong> in the info bar now shows the filename only, with the full tilde-abbreviated path moved to a hover tooltip. The copy button next to the filename still copies the full path.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/vendasta/markdown-releases/releases/download/v0.9.1/vmarkdown-0.9.1.dmg"
+        sparkle:edSignature="7FrzRDPNL/JeVlqv0s3mRIfVb9lCNjIf9CTzyZyJv4CK1WanylvvDM5RYJrSu8SDalsYfBZVuAxEs7xTG7vbAA=="
+        length="3491697"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.9.0</title>
       <pubDate>Sat, 09 May 2026 08:00:00 -0600</pubDate>
       <sparkle:version>15</sparkle:version>
