@@ -6,6 +6,28 @@
     <description>vmarkdown auto-update feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.9.3</title>
+      <pubDate>Wed, 24 Jun 2026 16:20:06 -0600</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>Added</h3>
+        <ul>
+          <li><strong>Appearance switching</strong>. A new View &rarr; Appearance submenu (System / Light / Dark), applied app-wide and remembered across launches. Default follows the OS; the System item is labeled with its resolved appearance (e.g. &ldquo;System (Dark)&rdquo;).</li>
+        </ul>
+        <h3>Fixed</h3>
+        <ul>
+          <li><strong>Copying no longer pastes light-grey text</strong>. Selections copied from the preview in dark mode now use standard text color when pasted into other apps, instead of the near-invisible light grey.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/vendasta/markdown-releases/releases/download/v0.9.3/vmarkdown-0.9.3.dmg"
+        sparkle:edSignature="UxgloKQqQ7KabMPOxVLreahysKaTyFFuUb8djRVloYSaMPlCsn/Gz43CBoIUqZKahZdJrDaT0/KjZcOdp3t4Dg=="
+        length="3505118"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.9.1</title>
       <pubDate>Tue, 12 May 2026 14:04:20 -0600</pubDate>
       <sparkle:version>16</sparkle:version>
